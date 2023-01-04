@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 11px;
+}
+.menu {
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.menu li {
+    float: left;
+    margin-left: 40px;
+}
+
+.menu a {
+    color: #676770;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color .3s;
+}
+.menu a:hover,
+.menu a.active
+ {
+    color: #0082F3;
+}
