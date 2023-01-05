@@ -366,3 +366,65 @@ body {
 /*
 Конец четвертого блока
 */
+
+/*
+блок шесть
+*/
+.block-6__header {
+    color: #676770;
+    font-size: 31px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+.block-6__text-1 {
+    color: #6A859C;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+}
+.block-6__text-2 {
+    color: #6A859C;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2;
+}
+.block-6__text-3 {
+    color: #6A859C;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+/*
+конец шестого блока
+*/
+
+/*
+блок семь
+*/
+
+/*
+конец седьмого блока
+*/
+
+/*
+восьмой блок
+*/
+.block-8 {
+    overflow: hidden;
+    height: 100px;
+    background-color: #383838;
+    margin-top: 36px;
+}
+.block-8__text {
+    color: #9E9E9E;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+/*
+конец восьмого блока
+*/
