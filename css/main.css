@@ -270,7 +270,7 @@ body {
     background-color: #69B9FF00;
     border-radius: 5px;
     border: 1px solid #fff;
-    padding: 12px 30px;
+    padding: 10px 30px;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 400;
@@ -412,6 +412,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 80px;
 }
 /*
 конец шестого блока
@@ -420,7 +421,43 @@ body {
 /*
 блок семь
 */
+.block-7__column-1 {
+    width: calc(100% / 3);
+    float: left;
+}
+.block-7__column-2 {
+    width: calc(100% / 3);
+    float: left;
+}
+.block-7__column-3 {
+    width: calc(100% / 3);
+    float: left;
+}
+.block-7__column-1__header {
+    color: #676770;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 32px;
+}
+.block-7__column-1__text {
+    color: #6A859C;
+    font-size: 14px;
+}
 
+.block-7__column-2__header {
+    color: #676770;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.block-7__column-3__header {
+    color: #676770;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 /*
 конец седьмого блока
 */
