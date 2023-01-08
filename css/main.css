@@ -443,6 +443,8 @@ body {
 .block-7__column-1__text {
     color: #6A859C;
     font-size: 14px;
+    margin-top: 25px;
+    line-height: 25px;
 }
 
 .block-7__column-2__header {
@@ -450,6 +452,44 @@ body {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.block-7__column-2__text-1 {
+    color: #6A859C;
+    font-size: 13px;
+    border-bottom: 1px solid #6A859C;
+    font-size: 14px;
+    margin: 22px 0 6px 10px;
+    line-height: 20px;
+}
+.block-7__column-2__text-2 {
+    color: #6A859C;
+    font-size: 13px;
+    border-bottom: 1px solid #6A859C;
+    font-size: 14px;
+    margin: 22px 0 6px 10px;
+}
+.block-7__column-2__text-3 {
+    color: #6A859C;
+    font-size: 13px;
+    border-bottom: 1px solid #6A859C;
+    font-size: 14px;
+    margin: 22px 0 6px 10px;
+}
+.block-7__column-2__text-4 {
+    color: #6A859C;
+    font-size: 13px;
+    border-bottom: 1px solid #6A859C;
+    font-size: 14px;
+    margin: 22px 0 6px 10px;
+}
+.block-7__column-2__text-5 {
+    color: #6A859C;
+    font-size: 13px;
+    border-bottom: 1px solid #6A859C;
+    font-size: 14px;
+    margin: 22px 0 6px 10px;
 }
 
 .block-7__column-3__header {
@@ -457,6 +497,7 @@ body {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: 32px;
 }
 /*
 конец седьмого блока
