@@ -1,3 +1,6 @@
+/*
+меню шапочки
+*/
 @media (max-width: 935px){
     .wrapper {
         width: calc(100% - 30px);
@@ -8,11 +11,220 @@
     .wrapper {
         width: calc(100% - 30px);
     }
-    .button-1 {
+}
+@media (max-width: 500px){
+    .menu {
+        margin: 0 auto;
+    }
+    .logo {
         float: none;
-        width: 140px;
-        height: 45px;
         text-align: center;
-        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .menu__list {
+        float: none;
+        width: max-content;
+        
+    }
+    .menu ul {
+        margin: 0 auto;
+        float: none;       
+    }
+    .menu li {
+        float: left;
+
+    }
+    .menu a {
+        color: #676770;
+        text-decoration: none;
+        font-size: 32px;
+        font-weight: 400;
+        transition: color .3s;
     }
 }
+/*
+закончили шапочку
+*/
+
+/*
+Первый блок
+*/
+@media (min-width: 800px) and (max-width: 935px) {
+    .block-1__button {
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+    .block-1__text {
+        font-size: 32px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .button-1 {
+        color: #fff;
+        background-color: #69B9FF;
+        border-radius: 5px;
+        border: 1px solid #69B9FF;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color .3s;
+        margin-top: 106px;
+        /*margin-left: 300px;*/
+        float: left;
+        letter-spacing: 2px;
+    
+    }
+    
+    .button-2 {
+        color: #fff;
+        background-color: #69B9FF00;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color .3s;
+        margin-top: 106px;
+        margin-left: 20px;
+        float: left;
+        letter-spacing: 2px;
+    }
+    .block-1 {
+        height: 400px;
+        background-size: cover;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 16px;
+    }
+}
+/*
+закончили первый блок
+*/
+
+/*
+второй блок
+*/
+@media (min-width: 934px) and (max-width: 959px) {
+    .block-2 .wrapper {
+        width: calc(100% - 30px);
+    }
+}
+@media (min-width: 770px) and (max-width: 835px) {
+    .block-2__header__carta {
+        color: #676770;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 499px) and (max-width: 600px) {
+    .block-2__header {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #676770;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .block-2__text {
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #8E8E9C;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .block-2__header__carta {
+        color: #676770;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .block-2__text__carta {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #6A859C;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .carta {
+        margin-top: 40px;
+    }
+    .carta__img {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 498px) {
+    .block-2__header {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: #676770;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .block-2__text {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #8E8E9C;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .block-2__header__carta {
+        color: #676770;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .block-2__text__carta {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #6A859C;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .carta {
+        margin-top: 24px;
+    }
+    .carta__img {
+        margin-top: 12px;
+    }
+    .block-2__carta-1 {
+        width: 100%;
+        border: 1px solid #DCEBF7;
+        border-radius: 5px;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+}
+/*
+конец второго блока
+*/
