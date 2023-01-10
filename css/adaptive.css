@@ -228,3 +228,51 @@
 /*
 конец второго блока
 */
+/*
+3 блок
+*/
+@media (min-width: 800px) and (max-width: 939px){
+    .block-3 {
+        margin-top: 40px;
+    }
+    .block-3__img {
+        width: 95%;
+    }
+}
+@media (min-width: 700px) and (max-width: 799px){
+    .block-3 {
+        margin-top: 40px;
+    }
+    .block-3__img {
+        width: 90%;
+    }
+}
+@media (min-width: 600px) and (max-width: 699px){
+    .block-3 {
+        margin-top: 40px;
+    }
+    .block-3__img {
+        width: 85%;
+    }
+    .block-3__header {
+        margin-top: 42px;
+    }
+    .block-3__button {
+        margin-bottom: 50px;
+    }
+    .block-3__text__card {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 23px;
+    }
+    .block-3__header__card {
+        letter-spacing: 5px;
+    }
+    .block-3__card {
+        margin-top: 50px;    
+    }
+}
+/*
+3 блок конец
+*/
