@@ -316,6 +316,11 @@ body {
     color: #8E8E9C;
     margin-top: 18px;
 }
+.block-4__button {
+    overflow: hidden;
+    margin: 0 auto;
+    width: max-content;
+}
 .block-4__button-1 {
     width: 196px;
     height: 24px;
@@ -330,49 +335,13 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition: background-color .3s;
-    margin-top: 18px;
-    margin-bottom: 96px;
-    float: left;
-    margin: 72px 0  52px 160px;
-}
-.block-4__button-2 {
-    width: 196px;
-    height: 24px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #92A0AD;
-    border-radius: 5px;
-    padding: 1px 30px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color .3s;
-    margin-top: 18px;
-    margin-bottom: 96px;
     float: left;
     margin: 72px 0  52px 16px;
 }
-.block-4__button-3 {
-    width: 196px;
-    height: 24px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #92A0AD;
-    border-radius: 5px;
-    padding: 1px 30px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color .3s;
-    margin-top: 18px;
-    margin-bottom: 96px;
-    float: left;
-    margin: 72px 0  52px 16px;
+.block-4__button-1:first-of-type {
+    margin-left: 0;
 }
+
 .block-4__button-1:hover,
 .block-4__button-2:hover,
 .block-4__button-3:hover {

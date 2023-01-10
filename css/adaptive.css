@@ -244,7 +244,7 @@
         margin-top: 40px;
     }
     .block-3__img {
-        width: 90%;
+        width: 95%;
     }
 }
 @media (min-width: 600px) and (max-width: 699px){
@@ -252,7 +252,7 @@
         margin-top: 40px;
     }
     .block-3__img {
-        width: 85%;
+        width: 95%;
     }
     .block-3__header {
         margin-top: 42px;
@@ -273,6 +273,184 @@
         margin-top: 50px;    
     }
 }
+@media (min-width: 500px) and (max-width: 599px){
+    .block-3__img {
+        width: 95%;
+    }
+    .block-3__header {
+        margin-top: 30px;
+    }
+    .block-3__card {
+        margin-top: 30px;    
+    }
+    .block-3__header__card {
+        letter-spacing: 5px;
+    }
+    .block-3__text__card {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 16px;
+    }
+    .block-3__button {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+    .block-3 {
+        margin-top: 24px;
+    }
+    
+    .block-3__header {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-top: 24px;
+    }
+    .block-3__text {
+        color: #E8E8E8;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 12px;
+    }
+    
+    .block-3__card {
+        margin-top: 50px;
+        text-align: center;
+    
+    }
+    .block-3__card-1 {
+        width: 100%;
+    }
+    .block-3__card-1:first-of-type{
+        margin-left: 0;
+    }
+    .block-3__card-2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    .block-3__img {
+        width: 80%;
+    }
+    .block-3__header__card {
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 7px;
+        margin-top: 20px;
+    }
+    .block-3__text__card {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 23px;
+    }
+    
+    .block-3__button {
+        width: 182px;
+        height: 42px;
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #69B9FF00;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color .3s;
+        margin-top: 18px;
+        margin-bottom: 40px;
+    }
+}
 /*
 3 блок конец
+*/
+
+/*
+block-4
+*/
+@media (min-width: 540px) and (max-width: 660px) {
+    .block-4__header {
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 50px;
+        color: #676770;
+        text-align: center;
+    }
+    .block-4__text {
+        font-size: 17px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        color: #8E8E9C;
+        margin-top: 18px;
+    }
+    .block-4__button {
+        width: max-content;
+    }
+    .block-4__button-1 {
+        width: 160px;
+        height: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #92A0AD;
+        border-radius: 5px;
+        padding: 2px 18px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color .3s;
+        float: left;
+       /* margin: 50px 0  52px 12px;*/
+    }
+}
+@media (min-width: 320px) and (max-width: 540px) {
+    .block-4__button {
+        width: max-content;
+    }
+    .block-4__button-1 {
+        width: 150px;
+        height: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #92A0AD;
+        border-radius: 5px;
+        padding: 2px 14px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color .3s;
+        float: none;
+       /* margin-top: 20px;*/
+        text-align: center;
+    
+        margin: 30px auto;
+
+    }
+    @media (min-width: 505px) and (max-width: 540px) {
+        .block-4__button {
+            width: max-content;
+        }
+    
+}
+/*
+End block-4
 */
