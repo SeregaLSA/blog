@@ -454,3 +454,21 @@ block-4
 /*
 End block-4
 */
+
+/*
+block-7
+*/
+@media (min-width: 500px) and (max-width: 730px) {
+    
+    .block-7__column {
+        width: calc(100% / 2);
+        margin: 0 auto;
+    }
+    .block-7__column-1__header {
+        display: none;
+    }
+}
+
+/*
+End block-7
+*/
